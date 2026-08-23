@@ -1,0 +1,50 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #959A98;
+
+}
+main{
+    /* background-color: #959A98; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+}
+#head
+{
+    font-size: xx-large;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+}
+.outerblock
+{
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    height: 32%;
+}
+.block
+{
+    border-style: solid;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block:hover
+{
+    cursor: pointer;
+    color: bisque;
+}
+#game
+{
+    border-style: solid;
+    width: 40%;
+    height: 40%;
+}
