@@ -24,8 +24,9 @@ for (let i = 0; i < 9; i++) {
         // console.log(box[i].innerHTML);
         if (turn == "X") {
             X.set(Number(box[i].innerHTML));
-           if (box[i].innerHTML!="O") box[i].innerHTML = "X";
+           if (box[i].innerHTML!="O"){ box[i].innerHTML = "X";
             turn = "O";
+           }
              for (let i=0;i<winningcomb.length;i++)
           {
             for (let j=0;j<winningcomb[i].length;j++)
@@ -46,8 +47,10 @@ for (let i = 0; i < 9; i++) {
         }
         else if (turn == "O") {
             O.set(Number(box[i].innerHTML));
-             if (box[i].innerHTML!="X") box[i].innerHTML = "O";
+             if (box[i].innerHTML!="X")
+                { box[i].innerHTML = "O";
             turn = "X";
+                }
             for (let i=0;i<winningcomb.length;i++)
           {
             for (let j=0;j<winningcomb[i].length;j++)
